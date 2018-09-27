@@ -2,6 +2,7 @@
 
 ~~~
 usage: yoink [-h] [-i INTERFACE] [-l LINKLOCAL] [-m MAC] [-t TARGET] [-v]
+             [-w WRITE]
 
 yoink - Send unsolicited Neighbor Advertisements or gratuitous ARP
 
@@ -15,6 +16,9 @@ optional arguments:
   -t TARGET, --target TARGET
                         target IP
   -v, --verbose         Verbose mode
+  -w WRITE, --write WRITE
+                        Write pcap file instead of sending packets out the
+                        wire
 ~~~
 
 ### TODO:
